@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="script.js" defer></script>
+    <title>Cronômetro</title>
+</head>
+<body id="corpo">
+    <header>
+        <div id="mode">
+            <button id="theme" onclick="dark()"><img src="img/moon-dark-theme1.svg" alt=""></button>
+            <button id="theme1" onclick="light()"><img src="img/sun-light-mode1.png" alt=""></button>
+        </div>
+    </header>
+    <main>
+        <h1 id="titulo">Cronômetro</h1>
+        <div id="tempo">
+            00:00:00
+        </div>
+        <div id="btn">
+            <button class="btn1" id="iniciar" onclick="start()">Iniciar</button>
+            <button class="btn1" id="pausar" onclick="stop()">Pausar</button>
+            <button class="btn1" id="zerar" onclick="end()">Zerar</button>
+        </div>
+        
+    </main>
+    
+</body>
+</html>
